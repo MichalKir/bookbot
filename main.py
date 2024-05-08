@@ -42,7 +42,7 @@ def book_report(book_path):
     print(f"{words_count} words found in the document")
     print(f"")
     for letter in letters_list:
-        print(f"The {letter["letter"]} character was found {letter["count"]} times")
+        print(f"The '{letter["letter"]}' character was found {letter["count"]} times")
     print("--- End report ---")
 
 if __name__ == "__main__":
